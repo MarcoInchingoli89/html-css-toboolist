@@ -64,6 +64,10 @@
 .block_element {
     display: block;
 }
+
+.margin {
+    margin-top: 1rem;
+}
    
 
 /* Header */
