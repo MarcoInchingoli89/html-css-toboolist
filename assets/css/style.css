@@ -33,6 +33,26 @@
     padding: 0.3rem;
 }
 
+.circle_green {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid green;
+    display: inline-block;
+    text-align: center;
+    color: green;
+}
+
+.circle_red {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid red;
+    display: inline-block;
+    text-align: center;
+    color: red;
+}
+
 .background_color_cyan {
     background-color: #45ABEA;
 }
@@ -59,10 +79,6 @@
 
 .white {
     color: white;
-}
-
-.block_element {
-    display: block;
 }
 
 .margin {
