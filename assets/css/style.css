@@ -8,6 +8,8 @@
 
 #site_container {
     background-color: lightgrey;
+    margin: auto;
+    width: 80%;
 }
 
 :root {
@@ -17,6 +19,50 @@
     --bol-lightgreen: #B0C926;
     --bol-pink: #D863A1;
     --bol-orange: #F29E33;
+}
+
+/* Utilities */
+
+.font_arial {
+    font-family: 'Arial',  sans-serif;
+
+}
+
+.borders_button {
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.background_color_cyan {
+    background-color: #45ABEA;
+}
+
+.background_color_purple {
+    background-color: #D863A1;
+}
+
+.background_color_green {
+    background-color: #64C0A9;
+}
+
+.background_color_orange {
+    background-color: #F29E33;
+}
+
+.background_color_pink {
+    background-color: #D863A1;
+}
+
+.background_color_lightgreen {
+    background-color: #B0C926;
+}
+
+.white {
+    color: white;
+}
+
+.block_element {
+    display: block;
 }
    
 
@@ -47,16 +93,11 @@ header {
     margin-bottom: 0.5rem;
 }
 
-#task_button {
-    color: white;
+#task_button {   
     background-color: #45ABEA;
-    border-radius: 0.5rem;
-    padding: 0.3rem;
 }
 
 #section_button {
     color: black;
     background-color: white;
-    border-radius: 0.5rem;
-    padding: 0.3rem;
 }

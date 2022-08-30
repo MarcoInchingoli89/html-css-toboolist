@@ -13,7 +13,7 @@
 
             <!-- logo e titolo -->                
             <img id="logo" src="./assets/img/Logo.png" alt="logo boolean">
-            <span id="title">Toboolist</span>
+            <span id="title" class="font_arial">Toboolist</span>
         
         
     </header>
@@ -22,15 +22,15 @@
 
         <nav id="site_nav">
 
+            <!-- pulsanti task e section -->
             <div id="buttons">
                 
-                <button id="task_button">Add Task</button>
-                <button id="section_button">Add Section</button>
+                <button id="task_button" class="borders_button background_color_cyan white" >Add Task</button>
+                <button id="section_button" class="borders_button">Add Section</button>
             
             
             </div>
 
-            
             <hr>
 
 
@@ -39,9 +39,38 @@
         
         
         <main id="site_main">
-            <section id="new_task"></section>
-            <section id="today"></section>
-            <section id="upcoming"></section>
+
+            <section id="new_task">
+
+                <h3 class="font_arial"><span>&#9660;</span> New Task</h3>
+                
+                <span> &check; Quarterly Newsletter <button class="borders_button background_color_cyan white">Editorial</button></span>
+
+
+            </section>
+
+            <section id="today">
+
+                <h3 class="font_arial"><span>&#9660;</span> Todayk</h3>
+                
+                <span class="block_element"> &check; Recruiting blog post <button class="borders_button background_color_cyan white">Editorial</button></span>
+                <span class="block_element"> &check; Mobile app launch <button class="borders_button background_color_purple white">Q1 Goals</button></span>
+                <span class="block_element"> &#10005; Interview John H. <button class="borders_button background_color_green white">Recruiting</button></span>
+                <span class="block_element"> &check; Submit update to mobile storefronts <button class="borders_button background_color_orange white">Mobile</button></span>
+
+
+            </section>
+            
+            <section id="upcoming">
+
+                <h3 class="font_arial"><span>&#9660;</span> Upcoming</h3>
+                
+                <span class="block_element"> &#10005; Schedule meeting with Alex <button class="borders_button background_color_cyan white">Editorial</button></span>
+                <span class="block_element"> &check; Homepage refresh <button class="borders_button background_color_pink white">Website</button></span>
+                <span class="block_element"> &check; Onboard new Sales team members <button class="borders_button background_color_lightgreen white">Sales</button></span>
+                <span class="block_element"> &check; Review editorial calendar <button class="borders_button background_color_cyan white">Editorial</button></span>
+
+            </section>
         </main>
         <footer id="site_footer"></footer>
 
