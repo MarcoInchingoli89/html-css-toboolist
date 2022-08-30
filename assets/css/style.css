@@ -25,6 +25,7 @@
 header {
     margin-left: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -38,4 +39,24 @@ header {
     font-family: 'Arial',  sans-serif;
     font-size: 2rem;
     font-weight: 700;
+}
+
+/* Nav */
+
+#buttons {
+    margin-bottom: 0.5rem;
+}
+
+#task_button {
+    color: white;
+    background-color: #45ABEA;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+#section_button {
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
 }
